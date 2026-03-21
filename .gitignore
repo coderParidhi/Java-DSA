@@ -1,0 +1,5 @@
+.DS_Store
+git add .gitignore
+git commit -m "Ignore DS_Store"
+git push
+xxxxx
