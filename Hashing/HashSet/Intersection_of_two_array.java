@@ -21,4 +21,8 @@ class Solution
         }
         return a;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1f6c792 (Intersection of two array)
