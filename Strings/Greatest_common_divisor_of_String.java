@@ -1,7 +1,9 @@
-class Solution {
+import java.util.*;
+class Solution 
+{
     public String gcdOfStrings(String str1, String str2) 
     {
-        int i,gcdlen;
+        int gcdlen;
         
         if(!(str1+str2).equals(str2+str1))
         return "";
@@ -21,4 +23,12 @@ class Solution {
         }
         return a;
     }
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String s1=sc.nextLine();
+        String s2=sc.nextLine();
+        Solution ob=new Solution();
+        System.out.println(ob.gcdOfStrings(s1,s2));
+     }
 }
