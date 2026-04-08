@@ -32,7 +32,7 @@ class Solution
         }
 
         Solution obj = new Solution();
-        int result = obj.numIdenticalPairs(arr);
+        int result= obj.numIdenticalPairs(arr);
 
         System.out.println("Number of good pairs: " + result);
     }
