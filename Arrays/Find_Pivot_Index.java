@@ -36,5 +36,6 @@ class Solution
         }
         Solution sol = new Solution();
         System.out.println(sol.pivotIndex(nums));
+        sc.close();
     }
 }
